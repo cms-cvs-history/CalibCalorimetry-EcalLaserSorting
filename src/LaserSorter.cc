@@ -1,6 +1,6 @@
 //emacs settings:-*- mode: c++; c-basic-offset: 2; indent-tabs-mode: nil -*-
 /*
- * $Id: LaserSorter.cc,v 1.1 2009/02/25 17:34:05 pgras Exp $
+ * $Id: LaserSorter.cc,v 1.2 2009/05/27 14:52:48 pgras Exp $
  */
 
 /***************************************************
@@ -23,6 +23,7 @@
 #include <unistd.h>
 #include <errno.h>
 
+#include "FWCore/MessageLogger/interface/MessageLogger.h"
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
 #include "FWCore/Framework/interface/Event.h"
 #include "FWCore/Framework/interface/EventSetup.h"
